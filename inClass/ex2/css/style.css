@@ -1,0 +1,22 @@
+* {
+    margin: 0; padding:0;
+}
+
+header, main, nav, aside, section{
+    display: block;
+}
+
+header{
+    width: 100%;
+}
+#logo { /* Star */
+    background-image: url("../images/Star.png");
+    background-repeat: no-repeat ;
+    background-size: contain;
+    height: 88px;
+    width: 88px;
+    display: block;
+
+}
+body { background-color: blue; font-family: Arial;}
+ 

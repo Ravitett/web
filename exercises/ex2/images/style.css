@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section {
+    display: block;
+}
+
+body{
+    font-family: helvetica;
+    background-color: white;
+}
+
+#logo{
+    background: url("../ex2/images/muffin.png") no-repeat;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    top: 48px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header {
+    width: 100%;
+    background-color: #ED4C5C;
+    height: 657px;
+    font-family: helvetica;
+    font-size:18px;
+    text-decoration: none;
+    padding-left: 51.45px;
+    padding-top: 59px;
+}
+
+nav{
+    margin-top: 48px;
+    font-size:14px;
+    color:white;
+    text-decoration: none;
+    vertical-align: Center;
+    Font-style: (mixed);
+    Line-height: 17px;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 22px;
+} 
+nav a:hover{
+    color: gray;
+}
+.coverPhoto img{
+    position: absolute;
+    left: 89px;
+    top: 196px;
+    border-radius: 15px;
+}
+.coverPhoto button{
+    color: #ED4C5C ;
+    height: 50px;
+    width: 160px;
+    border-style: none;
+    border-radius: 6px;
+    left:50px;
+    top:552px;
+    position: absolute;
+
+}
+main {
+    position: absolute;
+    width: 100%;
+    height: 1314px;
+    top: 657px;
+    background: #FFFFFF;
+    }
+    .paragraph h1{
+    width: 445px;
+    height: 89px;
+    left: 50px;
+    font-size: 36px;
+    margin-top: 56px;
+    margin-left: 50px;
+    color: #000000;
+    }
+
+    .paragraph p{
+        margin-left: 50px;
+        width: 445px;
+        color: #000000;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .paragraph a{
+        text-decoration: none;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 14px;
+        color: #ED4C5C;
+        
+        }
+img.animals1{
+    
+    margin-left:50px;
+    margin-top:87px;
+    border-radius: 8px;
+    width: 350px;
+    height: 248.86px;
+    
+}
+img.animals2{
+    
+    margin-left:30px;
+    border-radius: 8px;
+    width: 350px;
+    height: 248.86px;
+}
+
+a.ractangle1 {
+    position: absolute;
+    width: 350px;
+    height: 41px;
+    top: 570px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 50px;
+    color: #ED4C5C;
+    text-align:center;
+    text-decoration: none;
+    line-height: 40px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+a.ractangle2 {
+    position: absolute;
+    width: 350px;
+    height: 41px;
+    top: 570px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 434px;
+    color: #ED4C5C;
+    text-align:center;
+    text-decoration: none;
+    line-height: 40px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+a.ractangle3 {
+    position: absolute;
+    width: 350px;
+    height: 41px;
+    top: 570px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 819px;
+    color: #ED4C5C;
+    text-align:center;
+    text-decoration: none;
+    line-height: 40px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.adoption {
+    background-color: #F5F4F4;
+    width: 100%;
+    margin-top:63px ;
+    height: 657px;
+}
+
+.adoption h1 {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.adoption section {
+    position: absolute;
+    background-color: #FFF;
+    width: 255px;
+    height: 226px;
+    margin-top: 160px;
+}
+
+.adoption img {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    margin-top: 71.5px;
+    margin-left: 92px;
+}
+
+.adoption h3 {
+    position: absolute;
+    color: #000;
+    width: 255px;
+    margin-top: 139px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+.adoption p {
+    position: absolute;
+    color: #000;
+    width: 191px;
+    height: 51px;
+    margin-top: 171px;
+    margin-left: 34px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.adoption .cat{
+    margin-left: 50px;
+}
+
+.adoption .dog {
+    margin-left: 335px;
+}
+
+.adoption .rabbit{
+    margin-left: 620px;
+}
+
+.adoption .parrot{
+    margin-left:905px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;   
+    position: absolute;
+    left: 0px;
+    background: #ED4C5C;
+    top : 1963px;
+}
+
+footer .socialMedia img {
+    width: 25px;
+    height:25px;
+    margin-top:10px;
+}
+
+footer h6 {
+    font-family: Helvetica;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 264px;
+    font-size: 24px;
+    font-weight: 400;
+    Vertical-align: Top;
+    color: #FFFFFF;
+}
+
+footer .socialMedia {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 38px;
+    display:flex;
+}
+
+footer ul li {
+    list-style:none;
+    margin-left: 25px;
+}
